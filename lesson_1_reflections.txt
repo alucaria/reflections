@@ -1,0 +1,38 @@
+How did viewing a diff help debug the program?
+
+For the given bug in the code diff helped a lot because it was a trivial issue caused by a typo of how space was spelled.
+This may or may not work for other bugs where the architecture of the code has been thrown off.
+
+How could having easy access to the entire history of a file make you a more efficient programmer long term?
+
+You can see where you started an what mistakes you've made in the past so you are less likely to repeat those mistakes.
+You can also see what bugs may have existed or remember why you did something a certain way.
+Additionally you will not be saving unnecessary commented out code and be able to be more confident when you delete something
+so the code is much cleaner and you can always revert back to a previous version without worrying about what will happen.
+Additionally you will be able to support better backwards compatibility because you can run the code and debug both parts 
+when trying to make different versioned modules work together.
+
+What do you think are the pros and cons of manually choosing when to create a commit like you do in Git vs. hanving versions automatically saved lik in Google Docs does?
+
+Obviously google docs would not know what a logical stopping point would be so it would be on a timed basis.  This may cause the commit to not be workable code.  Since you can 
+decide on a commit in git you can also decide the commit was not worth having and segregate it logically rather than sifting through everything that was changed.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+It makes sense for Git to allow multiple files in one commit because otherwise a commit would consist of non compiling code/broken code.  Google Docs is more simple and doesn't "not" work together if there is a typo or if something doens't match.  However Wikipedia might make sense because 
+if information on one theory listed in wikipedia it may make another page no longer relevant.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log will give you the history of commits for that branch you are currently on so you can see in order
+what time things have been changed, what has changed and how many lines have changed.  git diff will give you a more in 
+depth look at what exactly has been added or removed from another version.
+
+How might using version control make you more confident to make changes that could break something?
+
+You can identify the exact change that imposed a bug or feature change by going through time assuming
+you are committing feature based.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Work and playing around with GitHub projects.
