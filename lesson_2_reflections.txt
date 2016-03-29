@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates an empty repository with a .git file which contains all the metadata for the repository.
+Initially there are no commits and so git log will return an error about the head.  When you need
+a new repository you will run git init.
