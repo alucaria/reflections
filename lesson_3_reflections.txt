@@ -5,3 +5,7 @@ when there are multiple people on a project.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 A change may break the code you are working on it so you will want to be able to commit at a proper point.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can work offline with the latest code.
