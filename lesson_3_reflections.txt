@@ -13,3 +13,7 @@ You can work offline with the latest code.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Email, talking directly, meetings.  This would be messy, unless you used some other framework like stash.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When you want to be able to develop a feature that may or may not be a feature you wamt to add for a specific release. If there are multiple features, especially, and we have a set time frame, and each have separate branches but only 2 make it by the deadline, fully tested, then we can add those but not be held back by the incomplete features.
