@@ -9,3 +9,7 @@ A change may break the code you are working on it so you will want to be able to
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 You can work offline with the latest code.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Email, talking directly, meetings.  This would be messy, unless you used some other framework like stash.
